@@ -1,0 +1,52 @@
+ *{
+    padding: 0;
+    margin: 0;
+
+ }
+
+ #container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+ }
+ 
+ #frases{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+ 
+ #btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background: black;
+    color: white;
+}
+
+#frases #frase, #frases #autor{
+    font-size: 1.5rem;
+}
+
+#containerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+margin-top: 100px;
+width: 100px;
+height: 30px;
+border-radius: 3px;
+}
